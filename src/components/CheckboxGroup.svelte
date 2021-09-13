@@ -12,7 +12,6 @@
         bind:group
         value={item.value}
         checked={group.includes(item.value)}
-    >
-        {item.text}
-    </Checkbox>
+        label={item.text}
+    />
 {/each}

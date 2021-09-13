@@ -2,6 +2,9 @@
     // import { createEventDispatcher } from "svelte";
 
     export let value = "";
+    export let aria = "";
+    export let classes = "";
+    export let label = "";
     export let checked = false;
     export let disabled = false;
     export let group = [];
@@ -10,7 +13,7 @@
     // also set prop checkbox state when group value change
     let groupstate = group.includes(value);
 
-    $: if (value) {
+    $: {
         const groupHasValue = group.includes(value);
 
         // check if group array has changed, or something else
@@ -39,13 +42,25 @@
     }
 </script>
 
-<label class="form-check">
+{#if label}
+    <label class="form-check">
+        <input
+            class="form-check-input {classes ? classes : ''}"
+            type="checkbox"
+            aria-label={aria}
+            {disabled}
+            {value}
+            bind:checked
+        />
+        <span class="form-check-label"><slot>{label}</slot></span>
+    </label>
+{:else}
     <input
-        class="form-check-input"
+        class="form-check-input {classes ? classes : ''}"
         type="checkbox"
+        aria-label={aria}
         {disabled}
         {value}
         bind:checked
     />
-    <span class="form-check-label"><slot /></span>
-</label>
+{/if}
