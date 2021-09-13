@@ -1,0 +1,15 @@
+{
+  "name": "tabler-svelte",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev -o",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^1.0.0-next.46",
+    "@sveltejs/kit": "next",
+    "svelte": "^3.34.0"
+  },
+  "type": "module"
+}

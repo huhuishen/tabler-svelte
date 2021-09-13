@@ -1,0 +1,285 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@sveltejs/adapter-node': ^1.0.0-next.46
+  '@sveltejs/kit': next
+  svelte: ^3.34.0
+
+devDependencies:
+  '@sveltejs/adapter-node': registry.nlark.com/@sveltejs/adapter-node/1.0.0-next.46
+  '@sveltejs/kit': registry.nlark.com/@sveltejs/kit/1.0.0-next.165_svelte@3.42.4
+  svelte: registry.nlark.com/svelte/3.42.4
+
+packages:
+
+  /estree-walker/2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: estree-walker/download/estree-walker-2.0.2.tgz}
+    dev: true
+
+  /globalyzer/0.1.0:
+    resolution: {integrity: sha1-y3baeVVWaaFRnVqO3wk6+qC/FGU=, tarball: globalyzer/download/globalyzer-0.1.0.tgz}
+    dev: true
+
+  /globrex/0.1.2:
+    resolution: {integrity: sha1-3V2eyCYjJzDNZ5Ol4zqTApheYJg=, tarball: globrex/download/globrex-0.1.2.tgz}
+    dev: true
+
+  /mri/1.1.6:
+    resolution: {integrity: sha1-SZUuEETbIdv5D2zZK8nJp3fUFaY=, tarball: mri/download/mri-1.1.6.tgz}
+    engines: {node: '>=4'}
+    dev: true
+
+  /require-relative/0.8.7:
+    resolution: {integrity: sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4=, tarball: require-relative/download/require-relative-0.8.7.tgz}
+    dev: true
+
+  /sade/1.7.4:
+    resolution: {integrity: sha1-6mgeDGXSSNIJXJBXjAPKC7G1RpE=, tarball: sade/download/sade-1.7.4.tgz}
+    engines: {node: '>= 6'}
+    dependencies:
+      mri: 1.1.6
+    dev: true
+
+  /source-map-js/0.6.2:
+    resolution: {integrity: sha1-C7XeYxtBz72mz7qL0FqA79/SOF4=, tarball: source-map-js/download/source-map-js-0.6.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /sourcemap-codec/1.4.8:
+    resolution: {integrity: sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=, tarball: sourcemap-codec/download/sourcemap-codec-1.4.8.tgz}
+    dev: true
+
+  registry.nlark.com/@rollup/pluginutils/4.1.1:
+    resolution: {integrity: sha1-HU2obdTt7RVlalfZM/2iuaCNR+w=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@rollup/pluginutils/download/@rollup/pluginutils-4.1.1.tgz}
+    name: '@rollup/pluginutils'
+    version: 4.1.1
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: 2.0.2
+      picomatch: registry.nlark.com/picomatch/2.3.0
+    dev: true
+
+  registry.nlark.com/@sveltejs/adapter-node/1.0.0-next.46:
+    resolution: {integrity: sha1-31Gc8ItXW14TRF4wYemFHgBDu8Q=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@sveltejs/adapter-node/download/@sveltejs/adapter-node-1.0.0-next.46.tgz}
+    name: '@sveltejs/adapter-node'
+    version: 1.0.0-next.46
+    dependencies:
+      esbuild: registry.nlark.com/esbuild/0.12.26
+      tiny-glob: registry.nlark.com/tiny-glob/0.2.9
+    dev: true
+
+  registry.nlark.com/@sveltejs/kit/1.0.0-next.165_svelte@3.42.4:
+    resolution: {integrity: sha1-0s+Tj0tGY+01/655B5W7rX7j1WI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@sveltejs/kit/download/@sveltejs/kit-1.0.0-next.165.tgz}
+    id: registry.nlark.com/@sveltejs/kit/1.0.0-next.165
+    name: '@sveltejs/kit'
+    version: 1.0.0-next.165
+    engines: {node: ^12.20 || >=14.13}
+    hasBin: true
+    peerDependencies:
+      svelte: ^3.39.0
+    dependencies:
+      '@sveltejs/vite-plugin-svelte': registry.nlark.com/@sveltejs/vite-plugin-svelte/1.0.0-next.22_svelte@3.42.4+vite@2.5.6
+      cheap-watch: registry.nlark.com/cheap-watch/1.0.4
+      sade: 1.7.4
+      svelte: registry.nlark.com/svelte/3.42.4
+      vite: registry.nlark.com/vite/2.5.6
+    transitivePeerDependencies:
+      - diff-match-patch
+    dev: true
+
+  registry.nlark.com/@sveltejs/vite-plugin-svelte/1.0.0-next.22_svelte@3.42.4+vite@2.5.6:
+    resolution: {integrity: sha1-C5iPJhvC3oGTp8KBpHUBNJY94cw=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@sveltejs/vite-plugin-svelte/download/@sveltejs/vite-plugin-svelte-1.0.0-next.22.tgz}
+    id: registry.nlark.com/@sveltejs/vite-plugin-svelte/1.0.0-next.22
+    name: '@sveltejs/vite-plugin-svelte'
+    version: 1.0.0-next.22
+    engines: {node: ^12.20 || ^14.13.1 || >= 16}
+    peerDependencies:
+      diff-match-patch: ^1.0.5
+      svelte: ^3.34.0
+      vite: ^2.5.3
+    dependencies:
+      '@rollup/pluginutils': registry.nlark.com/@rollup/pluginutils/4.1.1
+      debug: registry.nlark.com/debug/4.3.2
+      kleur: registry.nlark.com/kleur/4.1.4
+      magic-string: registry.nlark.com/magic-string/0.25.7
+      require-relative: 0.8.7
+      svelte: registry.nlark.com/svelte/3.42.4
+      svelte-hmr: registry.nlark.com/svelte-hmr/0.14.7_svelte@3.42.4
+      vite: registry.nlark.com/vite/2.5.6
+    dev: true
+
+  registry.nlark.com/cheap-watch/1.0.4:
+    resolution: {integrity: sha1-C8tKOo+9nVMnk2ST9rVrqmaNj+8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/cheap-watch/download/cheap-watch-1.0.4.tgz}
+    name: cheap-watch
+    version: 1.0.4
+    engines: {node: '>=8'}
+    dev: true
+
+  registry.nlark.com/colorette/1.4.0:
+    resolution: {integrity: sha1-UZD7uHJ2JZqGrXAL/yxtb6o/ykA=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/colorette/download/colorette-1.4.0.tgz?cache=0&sync_timestamp=1631034394587&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcolorette%2Fdownload%2Fcolorette-1.4.0.tgz}
+    name: colorette
+    version: 1.4.0
+    dev: true
+
+  registry.nlark.com/debug/4.3.2:
+    resolution: {integrity: sha1-8KScGKyHeeMdSgxgKd+3aHPHQos=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/debug/download/debug-4.3.2.tgz?cache=0&sync_timestamp=1625374675284&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdebug%2Fdownload%2Fdebug-4.3.2.tgz}
+    name: debug
+    version: 4.3.2
+    engines: {node: '>=6.0'}
+    dependencies:
+      ms: registry.nlark.com/ms/2.1.2
+    dev: true
+
+  registry.nlark.com/esbuild/0.12.26:
+    resolution: {integrity: sha1-NfLVisP6RinfJKpNb9cv61Ui6Us=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/esbuild/download/esbuild-0.12.26.tgz}
+    name: esbuild
+    version: 0.12.26
+    hasBin: true
+    requiresBuild: true
+    dev: true
+
+  registry.nlark.com/fsevents/2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/fsevents/download/fsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  registry.nlark.com/function-bind/1.1.1:
+    resolution: {integrity: sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/function-bind/download/function-bind-1.1.1.tgz}
+    name: function-bind
+    version: 1.1.1
+    dev: true
+
+  registry.nlark.com/has/1.0.3:
+    resolution: {integrity: sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/has/download/has-1.0.3.tgz}
+    name: has
+    version: 1.0.3
+    engines: {node: '>= 0.4.0'}
+    dependencies:
+      function-bind: registry.nlark.com/function-bind/1.1.1
+    dev: true
+
+  registry.nlark.com/is-core-module/2.6.0:
+    resolution: {integrity: sha1-11U7JSb+Wbkro+QMjfdX7Ipwnhk=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/is-core-module/download/is-core-module-2.6.0.tgz?cache=0&sync_timestamp=1629224656971&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-core-module%2Fdownload%2Fis-core-module-2.6.0.tgz}
+    name: is-core-module
+    version: 2.6.0
+    dependencies:
+      has: registry.nlark.com/has/1.0.3
+    dev: true
+
+  registry.nlark.com/kleur/4.1.4:
+    resolution: {integrity: sha1-jCAph9fld3ZtA5qM1GGTTAHNoE0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/kleur/download/kleur-4.1.4.tgz}
+    name: kleur
+    version: 4.1.4
+    engines: {node: '>=6'}
+    dev: true
+
+  registry.nlark.com/magic-string/0.25.7:
+    resolution: {integrity: sha1-P0l9b9NMZpxnmNy4IfLvMfVEUFE=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/magic-string/download/magic-string-0.25.7.tgz?cache=0&sync_timestamp=1618847046304&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmagic-string%2Fdownload%2Fmagic-string-0.25.7.tgz}
+    name: magic-string
+    version: 0.25.7
+    dependencies:
+      sourcemap-codec: 1.4.8
+    dev: true
+
+  registry.nlark.com/ms/2.1.2:
+    resolution: {integrity: sha1-0J0fNXtEP0kzgqjrPM0YOHKuYAk=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/ms/download/ms-2.1.2.tgz}
+    name: ms
+    version: 2.1.2
+    dev: true
+
+  registry.nlark.com/nanoid/3.1.25:
+    resolution: {integrity: sha1-CcoydHwOVD8OGBS303k0d/nI4VI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/nanoid/download/nanoid-3.1.25.tgz?cache=0&sync_timestamp=1628771925127&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.25.tgz}
+    name: nanoid
+    version: 3.1.25
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  registry.nlark.com/path-parse/1.0.7:
+    resolution: {integrity: sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/path-parse/download/path-parse-1.0.7.tgz}
+    name: path-parse
+    version: 1.0.7
+    dev: true
+
+  registry.nlark.com/picomatch/2.3.0:
+    resolution: {integrity: sha1-8fBh3o9qS/AiiS4tEoI0+5gwKXI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/picomatch/download/picomatch-2.3.0.tgz}
+    name: picomatch
+    version: 2.3.0
+    engines: {node: '>=8.6'}
+    dev: true
+
+  registry.nlark.com/postcss/8.3.6:
+    resolution: {integrity: sha1-JzDddql5afN/U7mmCWGXvjEcxOo=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/postcss/download/postcss-8.3.6.tgz?cache=0&sync_timestamp=1626882960231&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss%2Fdownload%2Fpostcss-8.3.6.tgz}
+    name: postcss
+    version: 8.3.6
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      colorette: registry.nlark.com/colorette/1.4.0
+      nanoid: registry.nlark.com/nanoid/3.1.25
+      source-map-js: 0.6.2
+    dev: true
+
+  registry.nlark.com/resolve/1.20.0:
+    resolution: {integrity: sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/resolve/download/resolve-1.20.0.tgz}
+    name: resolve
+    version: 1.20.0
+    dependencies:
+      is-core-module: registry.nlark.com/is-core-module/2.6.0
+      path-parse: registry.nlark.com/path-parse/1.0.7
+    dev: true
+
+  registry.nlark.com/rollup/2.56.3:
+    resolution: {integrity: sha1-tj7a3ZhRsNYYptDmr4IBlVp3rv8=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/rollup/download/rollup-2.56.3.tgz}
+    name: rollup
+    version: 2.56.3
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: registry.nlark.com/fsevents/2.3.2
+    dev: true
+
+  registry.nlark.com/svelte-hmr/0.14.7_svelte@3.42.4:
+    resolution: {integrity: sha1-f6gmHHsiXZQJ8KhvO56lw8pvZgc=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/svelte-hmr/download/svelte-hmr-0.14.7.tgz}
+    id: registry.nlark.com/svelte-hmr/0.14.7
+    name: svelte-hmr
+    version: 0.14.7
+    peerDependencies:
+      svelte: '>=3.19.0'
+    dependencies:
+      svelte: registry.nlark.com/svelte/3.42.4
+    dev: true
+
+  registry.nlark.com/svelte/3.42.4:
+    resolution: {integrity: sha1-g47Zj6eyb8X//k3w17o0XxxUz08=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/svelte/download/svelte-3.42.4.tgz}
+    name: svelte
+    version: 3.42.4
+    engines: {node: '>= 8'}
+    dev: true
+
+  registry.nlark.com/tiny-glob/0.2.9:
+    resolution: {integrity: sha1-IhLUQawXkoAzsRD4s2QGgxKdMeI=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/tiny-glob/download/tiny-glob-0.2.9.tgz}
+    name: tiny-glob
+    version: 0.2.9
+    dependencies:
+      globalyzer: 0.1.0
+      globrex: 0.1.2
+    dev: true
+
+  registry.nlark.com/vite/2.5.6:
+    resolution: {integrity: sha1-UUMbtbmbBBKJWVMAuhWUe60Piao=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/vite/download/vite-2.5.6.tgz}
+    name: vite
+    version: 2.5.6
+    engines: {node: '>=12.2.0'}
+    hasBin: true
+    dependencies:
+      esbuild: registry.nlark.com/esbuild/0.12.26
+      postcss: registry.nlark.com/postcss/8.3.6
+      resolve: registry.nlark.com/resolve/1.20.0
+      rollup: registry.nlark.com/rollup/2.56.3
+    optionalDependencies:
+      fsevents: registry.nlark.com/fsevents/2.3.2
+    dev: true
